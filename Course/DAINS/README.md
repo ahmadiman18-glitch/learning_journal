@@ -6,7 +6,7 @@ Computer simulation (FEA) can model metal bending and stress very well, but runn
 
 ## Project 1: Physics
 <p align="justify">
-Load-controlled bending simulation was performed on a square apecimen utilized a bilinear elastoplastic model with kinematic hardening. Equilibrium was resolved via a modified "Initial Stiffness" Newton-Raphson scheme (Eq. 1) [1] apired with radial return mapping for von Mises stress integration (Eq. 2) [2].
+Load-controlled bending simulation was performed on a square apecimen utilized a bilinear elastoplastic model with kinematic hardening. Equilibrium was resolved via a modified "Initial Stiffness" Newton-Raphson scheme (Eq. 1) [1] paired with radial return mapping for von Mises stress integration (Eq. 2) [2].
 
 $$\mathbf{K}_t \Delta u = \mathbf{f}_{t+\Delta t}^{ext} - \mathbf{f}_t \quad (1)$$
 $$\mathbf{s}_{n+1}^T = \mathbf{s}_n + 2G \Delta \mathbf{e}_{n+1}, \quad \mathbf{s}_{n+1} \equiv P(\mathbf{s}_{n+1}^T) \quad (2)$$
