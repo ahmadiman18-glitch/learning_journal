@@ -25,7 +25,7 @@ $$ x_{\text{next}} = \arg\max_x a(x) \quad (5) $$
 
 # Project 3: Predicition
 <p align="justify">
-Two surrogate models – a DNN and a 2D CNN – were trained on preprocessed (shuffled, split, normalized) elastoplastic FEA data from Projects 1 and 2. The DNN maps scalar inputs max_u, E, and σ 0 to scalar outputs maximum force (max_f) and max_mises. Meanwhile, the CNN predicts the full von Mises stress field (mises) given boundary displacement (U_boundary), E, and σ0.
+Two surrogate models – a DNN and a 2D CNN – were trained on preprocessed (shuffled, split, normalized) elastoplastic FEA data from Projects 1 and 2. The DNN maps scalar inputs maximum displacement, Young's modulus, and yield stress to scalar outputs maximum force and maximum von Mises stress. Meanwhile, the CNN predicts the full von Mises stress field given boundary displacement, Young's modulus, and yield stress.
 </p>
 
 <p align="justify">
