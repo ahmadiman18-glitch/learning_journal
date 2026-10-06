@@ -16,7 +16,7 @@ Pseudo-time steps are solved iteratively until residual tolerances or maximum it
 
 ## Project 2: Optimization
 <p align="justify">
-Using the Project 1 Finite Elemenet model as a black box, multi-objective optimization maximized maximum von Mises stress and minimized maximum final displacement across varied material stiffness (Young's modulus) and varied prescribed boundary displacement. Executed over 20 Ax active learning trials, space-filling Sobol sampling preceded Gaussian Process modeling (3). The GP prior and dataset induce a posterior f(x), while acquisition function (4) determines the next evaluation point in X via proxy optimization (5) [3]
+Using the Project 1 Finite Elemenet model as a black box, multi-objective optimization maximized maximum von Mises stress and minimized maximum final displacement across varied material stiffness (Young's modulus) and varied prescribed boundary displacement. Executed over 20 Ax active learning trials, space-filling Sobol sampling preceded Gaussian Process modeling (3). The GP prior and dataset induce a posterior f(x), while acquisition function (4) determines the next evaluation point in X via proxy optimization (5) [3].
 
 $$ \\{x_n, y_n\\}_{n=1}^N, \text{ where } y_n \sim \mathcal{N}(\mu, \sigma^2) \quad (2) $$
 $$a : \mathcal{X} \rightarrow \mathbb{R}^+ \quad (4)$$
